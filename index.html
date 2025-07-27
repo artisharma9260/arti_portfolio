@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arti Sharma | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #fefcea, #f1da36);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff6a00, #ee0979);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+            margin-bottom: 1rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 900px;
+            background-color: #ffffffdd;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #ee0979;
+            border-bottom: 2px dashed #ccc;
+            padding-bottom: 0.5rem;
+        }
+
+        a {
+            color: #ff6a00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="portfolio.jpg" alt="Arti Sharma" class="profile-pic">
+        <h1>Arti Sharma</h1>
+        <p>B.Tech CSE | Full Stack Developer | ML Enthusiast</p>
+        <p><a href="mailto:artirai7542@gmail.com">artirai7542@gmail.com</a> | 📞 +91 9260952761</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Arti Sharma, a third-year Computer Science and Engineering student at VIT Bhopal University. My primary focus is Full Stack Web Development using the MERN stack (MongoDB, Express.js, React.js, Node.js). I am deeply enthusiastic about coding and love building efficient, scalable, and user-friendly web applications. I enjoy working on creative front-end interfaces as much as I enjoy solving complex backend problems. In addition to technical skills, I believe in teamwork, effective communication, and a growth mindset that helps me evolve continuously as a developer and learner.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>VIT Bhopal University</strong> (2023–2027) – CGPA: 8.93</li>
+            <li>Little Flower House, Varanasi (Class XII) – 88.8%</li>
+            <li>Shah Faiz Public School, Ghazipur (Class X) – 89.4%</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> C++, Python, Java</li>
+            <li><strong>Web Dev:</strong> HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, MySQL</li>
+            <li><strong>Tools:</strong> NumPy, OpenCV, Tkinter</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Language Translator:</strong> Python & Googletrans-based real-time translator supporting 10+ languages</li>
+            <li><strong>Satellite Animal Detection:</strong> OpenCV + ML-based group project for recognizing animals in aerial jungle images</li>
+            <li><strong>Blogging Platform:</strong> MERN stack blog app with CRUD functionality</li>
+            <li><strong>Myntra Clone:</strong> HTML/CSS UI replica of Myntra’s homepage</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Full Stack Development – Ethnus Codemithra (MongoDB, Express.js, React.js, Node.js)</li>
+            <li>Microsoft Azure Data Fundamentals – Microsoft Certified</li>
+            <li>Introduction to Machine Learning – NPTEL (Silver Badge, 75%)</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>Content Writer</strong> – Blockchain Club, VIT Bhopal (2024 - Present)</p>
+        <p>Creating technical content, social media posts, and promotions to grow the club’s reach.</p>
+    </section>
+
+    <section id="links">
+        <h2>Profiles</h2>
+        <ul>
+            <li><a href="https://leetcode.com/u/Arti_Sharma_02/" target="_blank">LeetCode</a></li>
+            <li><a href="https://www.geeksforgeeks.org/user/artiraxijx/" target="_blank">GeeksForGeeks</a></li>
+            <li><a href="https://www.hackerrank.com/profile/arti_23bce10922" target="_blank">HackerRank</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Arti Sharma | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
